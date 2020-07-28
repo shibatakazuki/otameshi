@@ -1,0 +1,34 @@
+@charset "UTF-8";
+html{font-size: 100%;
+}
+body{font-family: "Noto Sans JP", "MyYuGothicM", "YuGothic", "-apple-system", "system-ui", "Hiragino kaku Gothic ProN", "Meiryo", "Verdana", "arial", "helvetica", "sans-serif";
+font-weight: 400;
+}
+
+img{max-width: 100%;
+}
+
+#header {
+    border: solid #019 ;
+    height: 300px;
+    background: grey;
+     .header-main{display: flex;
+    h2 {color: red;margin-top: -2px;}
+    .main-btn { text-decoration: none;
+        border: solid #fff ;
+        width: 100px;
+        height: 60px;
+        padding-top: 15px;
+        color: lightcoral;
+text-align: center;
+&:hover {color: green;         
+&:active {color: darkcyan;}
+}
+.main-nav{
+    ul{ .nav1{color:#fff}
+
+}
+}
+}
+}
+}
